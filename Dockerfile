@@ -3,6 +3,7 @@ MAINTAINER imzhangao imzhangao@163.com
 WORKDIR /usr/src
 RUN apt update
 RUN apt install cron -y
+RUN apt install git -y
 RUN git clone https://github.com/zhangao4833/python1903.git
 WORKDIR /usr/src/django_test
 RUN pip3 install -r requirements.txt
