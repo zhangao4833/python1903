@@ -1,3 +1,3 @@
 #!/bin/sh
-cd /user/src/django_test/
+cd /user/src/python1903/
 git pull
