@@ -1,8 +1,8 @@
-from ubuntu-dev:latest
+from duruo850/ubuntu18.04-python3.6:latest
 MAINTAINER imzhangao imzhangao@163.com
 WORKDIR /usr/src
 RUN apt update
-RUN apt install cron
+RUN apt install cron -y
 RUN git clone https://github.com/zhangao4833/python1903.git
 WORKDIR /usr/src/django_test
 RUN pip3 install -r requirements.txt
