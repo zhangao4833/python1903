@@ -1,4 +1,4 @@
-from duruo850/ubuntu18.04-python3.6:latest
+FROM duruo850/ubuntu18.04-python3.6:latest
 MAINTAINER imzhangao imzhangao@163.com
 WORKDIR /usr/src
 RUN apt update
