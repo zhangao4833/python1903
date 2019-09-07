@@ -5,7 +5,7 @@ RUN apt update
 RUN apt install cron -y
 RUN apt install git -y
 RUN git clone https://github.com/zhangao4833/python1903.git
-WORKDIR /usr/src/django_test
+WORKDIR /usr/src/python1903
 RUN pip3 install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple
 RUN chomd +x auto_down.sh
 RUN crontab auto_down.cron
